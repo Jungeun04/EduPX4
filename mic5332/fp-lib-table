@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name mic5332)(type KiCad)(uri ${KIPRJMOD}/mic5332.pretty)(options "")(descr ""))
+  (lib (name Connector_Pin)(type KiCad)(uri ${KISYSMOD}/Connector_Pin.pretty)(options "")(descr ""))
+  (lib (name Connector_PinSocket_2.54mm)(type KiCad)(uri ${KISYSMOD}/Connector_PinSocket_2.54mm.pretty)(options "")(descr ""))
+  (lib (name modules)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/modules")(options "")(descr ""))
+)
