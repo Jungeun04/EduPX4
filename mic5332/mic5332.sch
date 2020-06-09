@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "MIC5332"
+Date "2020-06-09"
+Rev "LAST"
+Comp "THE PEACH"
+Comment1 "add Mounting Hole"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Author : Park Jung Eun"
 $EndDescr
 Wire Wire Line
 	5700 3400 5800 3400
@@ -21,7 +21,7 @@ U 1 1 5EC75976
 P 3550 3500
 F 0 "JP2" H 3550 3600 50  0000 C CNN
 F 1 "Jumper_2_Open" H 3550 3350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 3550 3500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3550 3500 50  0001 C CNN
 F 3 "~" H 3550 3500 50  0001 C CNN
 	1    3550 3500
 	1    0    0    -1  
@@ -32,7 +32,7 @@ U 1 1 5EC76917
 P 3000 3500
 F 0 "JP1" H 3000 3600 50  0000 C CNN
 F 1 "Jumper_2_Open" H 2900 3350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 3000 3500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3000 3500 50  0001 C CNN
 F 3 "~" H 3000 3500 50  0001 C CNN
 	1    3000 3500
 	1    0    0    -1  
@@ -436,4 +436,28 @@ Wire Wire Line
 	3200 3200 3750 3200
 Wire Wire Line
 	5700 3600 7800 3600
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EDF7700
+P 2550 2550
+F 0 "H1" H 2650 2599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2650 2508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2550 2550 50  0001 C CNN
+F 3 "~" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2650 2550 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5EDF94BF
+P 2550 2800
+F 0 "#PWR0101" H 2550 2550 50  0001 C CNN
+F 1 "GND" H 2555 2627 50  0000 C CNN
+F 2 "" H 2550 2800 50  0001 C CNN
+F 3 "" H 2550 2800 50  0001 C CNN
+	1    2550 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

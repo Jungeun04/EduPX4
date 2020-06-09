@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\PJE\Documents\KiCAD\px4\sensors\sensors.sch</h1>
+    <p>2020-06-09 오후 5:49:37</p>
+    <p>Eeschema (5.1.6)-1</p>
+    <p><b>Component Count:</b>24</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1</td><td>1</td><td>10n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C2, C3, C4, C6, C7, C11</td><td>6</td><td>0u1</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C5</td><td>1</td><td>4u7</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C8</td><td>1</td><td>2u2</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C9</td><td>1</td><td>10n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C10</td><td>1</td><td>100n</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C12, C13</td><td>2</td><td>22uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>J1</td><td>1</td><td>Conn_01x14_Male</td><td>Connector:Conn_01x14_Male</td><td>~</td><td>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>JP1, JP2</td><td>2</td><td>Jumper</td><td>Device:Jumper_NO_Small</td><td>~</td><td>Jumper, normally open, small symbol</td><td></td></tr><tr><td>R1, R2, R3, R4</td><td>4</td><td>5k1</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>U1</td><td>1</td><td>IST8310</td><td>Sensor_Magnetic:IST8310</td><td>http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-09)IST8310%20Datasheet%20v1.2_brief-105.09.20.pdf</td><td>3D Magnetometer, I2C Interface, LGA-16</td><td></td></tr><tr><td>U2</td><td>1</td><td>MPU-9250</td><td>Sensor_Motion:MPU-9250</td><td>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</td><td>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI</td><td></td></tr><tr><td>U3</td><td>1</td><td>MS5611-01BA</td><td>Sensor_Pressure:MS5611-01BA</td><td>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English</td><td>Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8</td><td></td></tr><tr><td>U4</td><td>1</td><td>ICM-20602</td><td>Sensor_Motion:ICM-20602</td><td>http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf</td><td>High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

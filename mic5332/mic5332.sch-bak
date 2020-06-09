@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "MIC5332"
+Date "2020-06-09"
+Rev "LAST"
+Comp "THE PEACH"
+Comment1 "add Mounting Hole"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Author : Park Jung Eun"
 $EndDescr
 Wire Wire Line
 	5700 3400 5800 3400
@@ -180,10 +180,10 @@ Wire Wire Line
 	7050 4300 7350 4300
 Connection ~ 4800 4300
 $Comp
-L mic5332-rescue:GND-power #PWR0101
+L mic5332-rescue:GND-power #PWR01
 U 1 1 5EC85E14
 P 4800 4450
-F 0 "#PWR0101" H 4800 4200 50  0001 C CNN
+F 0 "#PWR01" H 4800 4200 50  0001 C CNN
 F 1 "GND" H 4805 4277 50  0000 C CNN
 F 2 "" H 4800 4450 50  0001 C CNN
 F 3 "" H 4800 4450 50  0001 C CNN
@@ -261,10 +261,10 @@ F 3 "~" H 1600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mic5332-rescue:Conn_01x01_Male-Connector EN2
+L mic5332-rescue:Conn_01x01_Male-Connector EN1
 U 1 1 5ECA90EE
 P 1600 3400
-F 0 "EN2" H 1500 3400 50  0000 C CNN
+F 0 "EN1" H 1500 3400 50  0000 C CNN
 F 1 "EN2" H 1500 3400 50  0000 C CNN
 F 2 "mic5332:Socket_1x01_P2.54mm_Vertical" H 1600 3400 50  0001 C CNN
 F 3 "~" H 1600 3400 50  0001 C CNN
@@ -272,10 +272,10 @@ F 3 "~" H 1600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mic5332-rescue:Conn_01x01_Male-Connector EN1
+L mic5332-rescue:Conn_01x01_Male-Connector EN2
 U 1 1 5ECA9489
 P 1600 3600
-F 0 "EN1" H 1500 3600 50  0000 C CNN
+F 0 "EN2" H 1500 3600 50  0000 C CNN
 F 1 "EN1" H 1500 3600 50  0000 C CNN
 F 2 "mic5332:Socket_1x01_P2.54mm_Vertical" H 1600 3600 50  0001 C CNN
 F 3 "~" H 1600 3600 50  0001 C CNN
@@ -316,10 +316,10 @@ F 3 "~" H 8000 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mic5332-rescue:Conn_01x01_Male-Connector POR2
+L mic5332-rescue:Conn_01x01_Male-Connector POR1
 U 1 1 5ECAAD85
 P 8000 3600
-F 0 "POR2" H 7900 3600 50  0000 C CNN
+F 0 "POR1" H 7900 3600 50  0000 C CNN
 F 1 "POR2" H 7900 3600 50  0000 C CNN
 F 2 "mic5332:Socket_1x01_P2.54mm_Vertical" H 8000 3600 50  0001 C CNN
 F 3 "~" H 8000 3600 50  0001 C CNN
@@ -346,10 +346,10 @@ Wire Wire Line
 Wire Wire Line
 	7350 3200 7800 3200
 $Comp
-L mic5332-rescue:PWR_FLAG-power #FLG0101
+L mic5332-rescue:PWR_FLAG-power #FLG01
 U 1 1 5ECAD302
 P 4800 4400
-F 0 "#FLG0101" H 4800 4475 50  0001 C CNN
+F 0 "#FLG01" H 4800 4475 50  0001 C CNN
 F 1 "PWR_FLAG" V 4800 4528 50  0000 L CNN
 F 2 "" H 4800 4400 50  0001 C CNN
 F 3 "~" H 4800 4400 50  0001 C CNN
@@ -371,10 +371,10 @@ F 3 "~" H 6250 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mic5332-rescue:R-Device R4
+L mic5332-rescue:R-Device R3
 U 1 1 5ECBA137
 P 6250 3400
-F 0 "R4" H 6320 3446 50  0000 L CNN
+F 0 "R3" H 6320 3446 50  0000 L CNN
 F 1 "330" V 6250 3350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 3400 50  0001 C CNN
 F 3 "~" H 6250 3400 50  0001 C CNN
@@ -436,4 +436,28 @@ Wire Wire Line
 	3200 3200 3750 3200
 Wire Wire Line
 	5700 3600 7800 3600
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EDF7700
+P 2550 2550
+F 0 "H1" H 2650 2599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2650 2508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2550 2550 50  0001 C CNN
+F 3 "~" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2650 2550 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5EDF94BF
+P 2550 2800
+F 0 "#PWR0101" H 2550 2550 50  0001 C CNN
+F 1 "GND" H 2555 2627 50  0000 C CNN
+F 2 "" H 2550 2800 50  0001 C CNN
+F 3 "" H 2550 2800 50  0001 C CNN
+	1    2550 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
