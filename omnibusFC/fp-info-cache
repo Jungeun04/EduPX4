@@ -1,4 +1,4 @@
-18628440454672769
+18633218006610634
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82040,9 +82040,30 @@ varistor SIOV
 2
 2
 omnibusFC
-MP1593
+TMLF-8_MCH
 
 
 0
+9
+9
+omnibusFC
+mp1593
+SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
+20
+9
+omnibusFC
+mpu9250
+24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)
+QFN 0.4
 0
+24
+24
+omnibusFC
+ms5611
+LGA-8
+lga land grid array
+0
+8
+8
