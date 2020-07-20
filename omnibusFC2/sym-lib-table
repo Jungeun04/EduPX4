@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name omnibusFC)(type Legacy)(uri ${KIPRJMOD}/omnibusFC_lib/omnibusFC.lib)(options "")(descr ""))
+  (lib (name mic5332)(type Legacy)(uri ${KIPRJMOD}/omnibusFC_lib/mic5332.lib)(options "")(descr ""))
+)
